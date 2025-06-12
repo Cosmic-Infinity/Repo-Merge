@@ -27,7 +27,7 @@ A script to easily merge multiple published Git repositories into one. Makes use
 8. That's it. Your git install now knows your secret key, and your commits will be identified as verified.
 
 ## Run the script
-1. Considering you can run powershell scripts, (if not refer to [step 2](#what-you-need)) run the script with
+1. Considering you can run powershell scripts, (if not refer to [step 2](#what-you-need)) by navigating to the location of the script and running it with
    ```powershell
    .\merge_repos.ps1
    ```
