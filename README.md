@@ -27,8 +27,12 @@ A script to easily merge multiple published Git repositories into one. Makes use
 8. That's it. Your git install now knows your secret key, and your commits will be identified as verified.
 
 ## Run the script
-1. Considering you can run powershell scripts, (if not refer to [step 2](#what-you-need)) by navigating to the location of the script and running it with
+1. Make a destinatiin repository in your GitHub account where you want to merge all the repos to. Add a readme file or anything to initialize the main branch (creating this main branch is strongly recommended)
+2. Note down the name of this destination repo and the source repos you want to merge into this.
+3. Open the `merge_repo.ps1` script and fill in these details in the top few lines.
+> **Note:** You just need the repo names, not the whole link to the repo
+4. Considering you can run powershell scripts, (if not refer to [step 2](#what-you-need)) navigate to the location of the script and run it with
    ```powershell
    .\merge_repos.ps1
    ```
-2. Press Enter when prompted.
+5. Press Enter when prompted.
