@@ -19,7 +19,7 @@ A script to easily merge multiple published Git repositories into one. Makes use
     gpg --import "location-of-your-private-key"
    ```
    ![sekret_key_here](https://github.com/user-attachments/assets/e23102ca-4e3a-4fa4-9d42-a9738ddb7bc0)
-   </br>notice the part `gpg: key ABCD123456789: secret key imported` where the *ABCD123456789* is your secret key ID
+   </br>notice the part `gpg: key ABCD123456789: secret key imported` where the *ABCD123456789* is your key ID
 7. Tell your install of Git to use your secret key using this command
    ```gitbash
    git config --global user.signingkey ABCD123456789-your-key-id-here
